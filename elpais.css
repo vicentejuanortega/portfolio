@@ -1,0 +1,20 @@
+body {
+    font-family: Verdana ,Helvetica, Arial, sans-serif;
+    letter-spacing: 1px; 
+}
+
+h1 {
+    font-size: 55px;
+    font-family: serif;
+    margin-top: 4vw;
+    text-align: center;
+}
+
+h2 {
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 1vw;
+    text-align: center;
+    padding: 2vw;
+}
