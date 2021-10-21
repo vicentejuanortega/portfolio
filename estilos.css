@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 72px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-left: 12vw;
     margin-right: 12vw;
@@ -36,4 +36,21 @@ a:hover {
 a:hover.enlace {
     text-decoration: underline;
     color: darkgreen;
+}
+
+.foto{
+    width: 45vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9vw;
+}
+
+.titulares{
+    color: azure;
+    width: 80vw;
+    height: 35vh;
+    background-image: url(imagenes/adrien-olichon-RCAhiGJsUUE-unsplash.jpg);
+    background-size: cover; 
+    margin-top: 10vw;
+    padding: 10vw;
 }
