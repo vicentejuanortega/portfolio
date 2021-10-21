@@ -5,20 +5,11 @@ body {
 
 h1 {
     font-size: 65px;
-    font-family: serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-left: 12vw;
     margin-right: 12vw;
     margin-top: 4vw;
     text-align: center;
-}
-
-h2 {
-    font-size: 19px;
-    font-family: sans-serif;
-    font-weight: 500;
-    margin-top: 1vw;
-    text-align: center;
-    padding: 2vw;
 }
 
 li {
@@ -35,7 +26,6 @@ a {
     text-decoration: none;
     outline: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: red;
     font-size: 38px;
 }
 
