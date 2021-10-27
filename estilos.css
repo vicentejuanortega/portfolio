@@ -23,11 +23,11 @@ h2 {
 }
 
 h3 {
-    font-size: 29px;
+    font-size: 23px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-left: 10vw;
     margin-right: 10vw;
-    margin-top: 5vw;
+    margin-top: 2vw;
     text-align: center;
     text-decoration: none;
 }
@@ -41,13 +41,13 @@ h3 {
 }
 
 li {
-    padding: 10px;
+    padding: 2vw;
     color: darkgray;
 }
 
 ul {
     list-style: none; 
-    padding: 4vw;
+    padding: 2vw;
 }
 
 a {
@@ -80,7 +80,7 @@ a:hover.enlace {
     height: 37vh;
     background-image: url(imagenes/teclado.jpg);
     background-size: cover; 
-    margin-top: 4vw;
+    margin-top: 0;
     margin-bottom: 4vw;
     padding: 10vw;
 }
