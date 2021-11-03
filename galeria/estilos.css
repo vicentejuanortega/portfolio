@@ -9,14 +9,19 @@ body{
 
 img{
     width: 100%;
+    filter: saturate(1);
+}
+
+a:hover img {
+    filter: saturate(0);
 }
 
 .row{
     display: flex;
     padding: 5px;
     flex-wrap: wrap;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 7vw;
+    margin-right: 7vw;
 }
 
 .column{
@@ -42,10 +47,9 @@ img{
 
 h1 {
     text-align: center;
-    font-size: 60px;
+    font-size: 55px;
     font-family: "Arial Black", sans-serif;
-    padding-top: 2vw;
-    padding-bottom: 0;
+    padding-top: 3vw;
 }
 
 h2 {
@@ -53,6 +57,5 @@ h2 {
     font-size: 28px;
     color: rgb(59, 61, 63);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-top: 2vw;
-    padding-bottom: 3vw;
+    padding-bottom: 6vw;
 }
