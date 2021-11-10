@@ -96,17 +96,17 @@ h2 {
     padding: 16px 30px;
   }
 
-
-  ...
-
-
   .menu{
     list-style: none;
     padding: 0;
-    background: black;
+    background: white;
     width: 90%;
     max-width: 1000px;
     margin: auto;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 2;
 }
 
 .menu li a{
@@ -115,7 +115,6 @@ h2 {
     padding: 20px;
     display: block;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
 }
 
 .menu li{
