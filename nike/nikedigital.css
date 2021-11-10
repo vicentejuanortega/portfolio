@@ -1,6 +1,18 @@
 body {
     font-family: Verdana ,Helvetica, Arial, sans-serif;
     letter-spacing: 2px;    
+    background: #e8e8e8;
+}
+
+.elmenu li {
+    display: inline;
+}
+
+.elmenu {
+    width: 100vw;
+    height: 10vh;
+    padding: 10vw;
+    
 }
 
 .cajaSuperior li {
