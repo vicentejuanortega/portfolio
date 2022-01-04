@@ -61,7 +61,6 @@ h2 {
     font-size: 28px;
     color: rgb(116, 116, 116);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-bottom: 6vw;
 }
 
 .centro {
@@ -125,3 +124,25 @@ h2 {
 .menu li a:hover {
     background: #e8e8e8;
 }
+
+article {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    margin-bottom: 12rem;
+    margin-top: 1rem;
+    margin-left: 37rem;
+
+  }
+  
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
