@@ -59,6 +59,7 @@ a {
 }
 
 a:hover {
+    color: rgb(27, 78, 189);
 }
 
 a:hover.enlace {
