@@ -15,7 +15,9 @@ No media query since this is the default */
         .logotipo{
             width: 95%;
             margin-left: 0.3rem;
-            padding-top: 1rem;
+            padding: 0;
+            margin-top: 1rem;
+
         }
 
         a {
@@ -47,31 +49,45 @@ No media query since this is the default */
         /* COLUMNAS */
         main {
             height: 58rem;
-            margin-top: 25rem;
+            margin-top: 0;
         }
-
+    
         main article{
             margin-bottom: 15rem;
         }
-
+    
         img{
             width: 100%;
             height: auto;
-            padding: 1rem;
+            padding: 0;
             padding-bottom: 0;
+            transition: .5s ease;
+            filter: saturate(1);
+            backface-visibility: hidden;
+        }
+    
+        a:hover img {
+            filter: saturate(0);
+        }
+    
+        h1 {
+            text-align: center;
+            font-size: 32px;
+            padding-top: 2vw;
+            margin-bottom: 5rem;
+        }
+    
+        .fotos {
+            margin-left: 0rem;
+            margin-right: auto;
         }
 
         h1{
             font-family: 'Recursive', sans-serif;  
-            font-size: 23px;
+            font-size: 26px;
             text-align: center;
             margin-top: 3.5rem;
             margin-bottom: 2rem;
-        }
-
-        main{
-            margin-top: 0;
-        }
         }
 
 
@@ -123,6 +139,7 @@ No media query since this is the default */
         width: 80%;
         margin-left: 1rem;
         padding: 0;
+        margin-top: 0;
     }
 
     a {
@@ -150,9 +167,9 @@ No media query since this is the default */
     }
 
     img{
-        width: 29%;
+        width: 33%;
         height: auto;
-        padding: 1rem;
+        padding: 0;
     }
 
     h1{
@@ -298,8 +315,6 @@ No media query since this is the default */
         padding-top: 2vw;
         margin-bottom: 5rem;
     }
-    }
-
 
     .fotos {
         margin-left: 9rem;

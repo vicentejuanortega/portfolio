@@ -24,7 +24,7 @@
 
         ul{
             margin-left: 0;
-            padding-left: 1.3rem;
+            padding-left: 1.5rem;
         }
 
         .menu li a {
@@ -32,6 +32,7 @@
             color: rgb(116, 116, 116);
             padding: 10px;
             padding-top: 1rem;
+            padding-bottom: 1rem;
             display: block;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
@@ -57,6 +58,10 @@
         /* CUERPO */
         main>article {
             height: 14rem;
+        }
+        
+        main img{
+            width: 95%;
         }
 
         main>a {
@@ -165,6 +170,7 @@
         }
 
         /* CUERPO */
+
         main>article {
             height: 20rem;
         }
@@ -298,7 +304,7 @@
             }
 
             ul{
-                margin-left: 12.2rem;
+                margin-left: 12rem;
                 padding-top: 1.5rem;
             }
 
@@ -307,13 +313,13 @@
                 width: 85%;
                 height: auto;
                 padding: 1rem;
-                margin-left: 4rem;
+                margin-left: 2rem;
                 border-radius: 5%;
             }
 
             /* CUERPO */
             main{
-                height: 15rem;
+                height: 43rem;
             }
             
             main>a {
@@ -321,14 +327,14 @@
             }
 
             main>article {
-                margin-top: 6rem;
+                margin-top: 4rem;
             }
 
             h1 {
                 text-align: left;
                 font-size: 31px;
                 margin-bottom: 2rem;
-                margin-top: 3.5rem;
+                margin-top: 1.5rem;
                 margin-right: 9rem;
             }
             
